@@ -279,7 +279,7 @@ img {
   border-radius: 45px;
   padding: 60px;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .cta-text h2 {
@@ -295,7 +295,7 @@ img {
 }
 
 .cta-deco {
-  position: relative;
+  position: static;
 }
 
 .deco-star {
@@ -304,13 +304,12 @@ img {
 
 .cta-deco .deco-star.big {
   position: absolute;
-  right: 120px;
+  right: 75px;
   top: 50%;
-  transform: translateY(-48%);
+  transform: translateY(-50%);
   display: block;
-  width: 430px;
-  max-width: 45%;
-  height: auto;
+  width: 494px;
+  height: 394px;
   margin: 0;
 }
 
